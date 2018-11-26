@@ -1,6 +1,6 @@
-# eslint-plugin-ifelse-brace-style
+# IM ESLint Plugin Library
 
-Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if).
+A library for ESLint for the IMC coding standards.
 
 ## Installation
 
@@ -10,13 +10,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-ifelse-brace-style`:
+Next, install `eslint-plugin-imc`:
 
 ```
 $ npm install git+https://github.com/IMCAG/eslint-plugin-imc.git
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ifelse-brace-style` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-imc` globally.
 
 ## Usage
 
@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "eslint-plugin-imc/ifelse-brace-style": 0
+        "eslint-plugin-imc/ifelse-brace-style": 1
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* `ifelse-brace-style`: Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if).
 
 
 
