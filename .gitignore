@@ -1,0 +1,11 @@
+/.idea
+/bower
+/dev
+/dist
+/bin
+/node_modules
+desktop.ini
+npm-debug.log
+Thumbs.db
+*.vpp~*
+.DS_Store
