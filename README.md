@@ -1,4 +1,4 @@
-# IM ESLint Plugin Library
+# IMC ESLint Plugin Library
 
 A library for ESLint for the IMC coding standards.
 
