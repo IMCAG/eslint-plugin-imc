@@ -13,19 +13,19 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-ifelse-brace-style`:
 
 ```
-$ npm install eslint-plugin-ifelse-brace-style --save-dev
+$ npm install git+https://github.com/IMCAG/eslint-plugin-imc.git
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-ifelse-brace-style` globally.
 
 ## Usage
 
-Add `ifelse-brace-style` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin-imc` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "ifelse-brace-style"
+        "eslint-plugin-imc"
     ]
 }
 ```
@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "ifelse-brace-style/rule-name": 2
+        "eslint-plugin-imc/ifelse-brace-style": 0
     }
 }
 ```
