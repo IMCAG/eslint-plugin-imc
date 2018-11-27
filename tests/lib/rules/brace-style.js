@@ -59,13 +59,14 @@ ruleTester.run("brace-style", rule, {
             if (foo) {
                 // ...
             } 
-            else if (bar) {
-                // ...
-            } else {
+            else {
                 // ...
             }
             `,
-            output: `
+            errors: 1
+        },
+        {
+            code: `
             if (foo) {
                 // ...
             } 
@@ -75,7 +76,19 @@ ruleTester.run("brace-style", rule, {
                 // ...
             }
             `,
-            errors: 1
+            errors: 2
+        },
+        {
+            code: `
+            if (foo) {
+                // ...
+            } else if (bar) {
+                // ...
+            } else {
+                // ...
+            }
+            `,
+            errors: 2
         }
     ]
 });
