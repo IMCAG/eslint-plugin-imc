@@ -52,12 +52,7 @@ ruleTester.run("brace-style", rule, {
                 // ...
             }
             `,
-            errors: [
-                {
-                    message: 'Please harmonize/add breaks in complex if/else/if statements',
-                    type: 'IfStatement'
-                }
-            ]
+            errors: 1
         },
         {
             code: `
@@ -80,12 +75,7 @@ ruleTester.run("brace-style", rule, {
                 // ...
             }
             `,
-            errors: [
-                {
-                    message: 'Please harmonize/add breaks in complex if/else/if statements',
-                    type: 'IfStatement'
-                }
-            ]
+            errors: 1
         }
     ]
 });
