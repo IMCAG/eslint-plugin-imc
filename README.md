@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "eslint-plugin-imc/ifelse-brace-style": 1
+        "eslint-plugin-imc/brace-style": 1
     }
 }
 ```
 
 ## Supported Rules
 
-* `ifelse-brace-style`: Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if).
+* `brace-style`: Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if).
 
 
 

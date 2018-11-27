@@ -1,4 +1,4 @@
-# Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if). (ifelse-brace-style)
+# Analyzes an if/else construct on its complexity and allows less line breaks (simple if/else) or requires more (if/else/if). (brace-style)
 
 Please describe the origin of the rule here.
 
